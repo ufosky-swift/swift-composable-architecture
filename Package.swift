@@ -37,9 +37,7 @@ let package = Package(
     ),
     .testTarget(
       name: "ComposableArchitectureTests",
-      dependencies: [
-        "ComposableArchitecture"
-      ]
+      dependencies: ["ComposableArchitecture"]
     ),
     .executableTarget(
       name: "swift-composable-architecture-benchmark",
